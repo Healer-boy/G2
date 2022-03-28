@@ -192,7 +192,7 @@ Tooltip 事件比较特殊，只有内置的几个事件，而不具备组合事
 
 #### 4. 状态事件
 
-当 Element 上的状态发生改变时，会释放 'element:statechange' 时间，用户可以在 Chart/View 上监听该事件。
+当 Element 上的状态发生改变时，会释放 'element:statechange' 事件，用户可以在 Chart/View 上监听该事件。
 
 > chart.on('element:statechange', (eventObject) => {});
 
